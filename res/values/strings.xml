@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ResideMenuDemo</string>
+    <string name="copy">复制</string>
+    <string name="favourites">收藏</string>
+    <string name="share">分享</string>
+    <string name="joke_styles_jokeyou">幽默</string>
+    <string name="joke_styles_feel">情感</string>
+    <string name="joke_styles_truth">人生</string>
+    <string name="joke_styles_colorful">色彩</string>
+</resources>

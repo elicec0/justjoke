@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="listView">false</item>
+    <item type="id" name="ignored_view">false</item>
+    <item type="id" name="imageView">false</item>
+    <item type="id" name="textView">false</item>
+    <item type="id" name="btn_open_menu">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="shake">false</item>
+    <item type="id" name="joke_content">false</item>
+    <item type="id" name="joke_btn_favorites">false</item>
+    <item type="id" name="joke_text_favorites">false</item>
+    <item type="id" name="joke_btn_copy">false</item>
+    <item type="id" name="joke_text_copy">false</item>
+    <item type="id" name="joke_btn_share">false</item>
+    <item type="id" name="joke_text_share">false</item>
+    <item type="id" name="layout_top">false</item>
+    <item type="id" name="title_bar_left_menu">false</item>
+    <item type="id" name="title_bar">false</item>
+    <item type="id" name="title_bar_right_menu">false</item>
+    <item type="id" name="main_fragment">false</item>
+    <item type="id" name="tvTag1">false</item>
+    <item type="id" name="tvTag2">false</item>
+    <item type="id" name="tvTag3">false</item>
+    <item type="id" name="tvTag4">false</item>
+    <item type="id" name="ivCursor">false</item>
+    <item type="id" name="iv_background">false</item>
+    <item type="id" name="iv_shadow">false</item>
+    <item type="id" name="sv_left_menu">false</item>
+    <item type="id" name="layout_left_menu">false</item>
+    <item type="id" name="sv_right_menu">false</item>
+    <item type="id" name="layout_right_menu">false</item>
+    <item type="id" name="iv_icon">false</item>
+    <item type="id" name="tv_title">false</item>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffeeeeee"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffeeeeee" >
+
+            <TextView
+                android:id="@id/tvTag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/joke_styles_jokeyou"
+                android:textColor="#ff000000"
+                android:textSize="20.0sp" />
+
+            <TextView
+                android:id="@id/tvTag2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/joke_styles_feel"
+                android:textColor="#ff000000"
+                android:textSize="20.0sp" />
+
+            <TextView
+                android:id="@id/tvTag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/joke_styles_colorful"
+                android:textColor="#ff000000"
+                android:textSize="20.0sp" />
+
+            <TextView
+                android:id="@id/tvTag4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/joke_styles_truth"
+                android:textColor="#ff000000"
+                android:textSize="20.0sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@id/ivCursor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="matrix"
+            android:src="@drawable/cursor" />
+        
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpViewPager1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ffffffff" >
+            </android.support.v4.view.ViewPager>
+
+            <TextView 
+                android:id="@+id/ignore_view"
+                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                />
+        </FrameLayout>
+        
+    </LinearLayout>
+
+</FrameLayout>
